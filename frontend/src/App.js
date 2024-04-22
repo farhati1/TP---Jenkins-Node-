@@ -11,7 +11,7 @@ function App() {
       // traitement de la réponse
     })
     .catch(error => {
-      if (error.response) {
+      if (error.response) { 
         // La requête a été faite et le serveur a répondu avec un statut hors de la plage 2xx
         console.log(error.response.data);
         console.log(error.response.status);
